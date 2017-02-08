@@ -1,0 +1,134 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body, html
+{
+  background-color: #EDEDED !important;
+}
+
+hr
+{
+  width: 40px;
+  margin-bottom: 5%;
+}
+
+/* nav */
+.brand-logo {
+  margin: 0 auto;
+}
+
+.brand-logo p {
+  text-align: center;
+  font-size: 0;
+}
+
+.brand-logo p img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+hr.nav_moblie {
+  width: 80%;
+}
+
+.nav_product {
+  border-left-width: 1px;
+  border-left-style: inset;
+  line-height: 32px;
+}
+
+/* intro */
+.intro
+{
+  text-align: center;
+  padding: 19% 7%;
+}
+
+/* service */
+.service .section {
+  padding-top: 0;
+}
+
+/* contact */
+hr.contact_border {
+  width: 95%;
+}
+
+.contact
+{
+  margin: 10% 0 0 0;
+}
+
+.contact h5
+{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.material_light_red {
+  background-color: #F8BBD0;
+}
+
+.material_red {
+  background-color: #F48FB1;
+}
+
+.material_blue {
+  background-color: #90CAF9;
+}
+
+.material_yellow {
+  background-color: #FFE082;
+}
+
+.intro.material_yellow {
+  margin-bottom: 3%;
+}
+
+/* detail */
+.trait {
+  padding-top: 3%;
+}
+
+#trait1 img {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 35%;
+}
+
+#trait2 img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#trait3 img {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 60%;
+}
+
+.intro.material_blue {
+  margin-top: 7%;
+}
+
+/* footer */
+footer.page-footer {
+ background-color: #EDEDED;
+}
+
+footer.page-footer .footer-copyright {
+ background-color: rgba(51, 51, 51, 0.08);
+ line-height: 25px;
+}
