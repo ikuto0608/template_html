@@ -132,3 +132,76 @@ footer.page-footer .footer-copyright {
  background-color: rgba(51, 51, 51, 0.08);
  line-height: 25px;
 }
+
+nav .brand-logo p {
+  font-size: 18px;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+
+.parallax-container {
+  padding: 26% 0;
+  max-height: 400px;
+  line-height: 0;
+  height: 50%;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media(max-width: 1580px) {
+  .parallax-container h1 {
+    font-size: 1.5em;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+  }
+}
+@media(max-width: 768px) {
+  .parallax-container h1 {
+    font-size: 1.0em;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+  }
+}
+
+@media(max-width: 1580px) {
+  .parallax-container h2 {
+    font-size: 1.5em;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+  }
+}
+@media(max-width: 768px) {
+  .parallax-container h2 {
+    font-size: 1.0em;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+.background {
+  width: 100%;
+  filter: brightness(75%);
+}
+
+.hero img {
+   height: auto;
+   width: 100%;
+}
+
+.navigation {
+  background-color: rgba(158, 122, 122, 0.5);
+}
