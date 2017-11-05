@@ -1,3 +1,9 @@
+(function($){
+  $(function(){
+    $('.parallax').parallax();
+  });
+})(jQuery);
+
 $(function(){
   var navMoblie = $("#nav-mobile");
   navMoblie.on("click", "a", null, function () {
